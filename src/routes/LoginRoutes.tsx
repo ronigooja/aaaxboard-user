@@ -26,7 +26,7 @@ const LoginRoutes: RouteObject = {
       children: [
         {
           path: "/",
-          element: <Navigate to={"/login"} />
+          element: <Navigate to={"/dashboard"} />
         },
         {
           path: "login",
